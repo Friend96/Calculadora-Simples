@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Calculadora</h1></header>
+    <div id="calculadora">
+        <div id="res">
+            <div><p id="res-p"></p></div>
+        </div>
+        <div id="dados">
+            <div>
+                <table>
+                    <tr>
+                        <th><button onclick="clicouAC()" id="AC">AC</button></th>
+                        <th><button class="dados" onclick="clicouP()">%</button></th>
+                        <th><button class="dados" onclick="clicouD()">/</button></th>
+                        <th><button class="dados" onclick="clicouV()">X</button></th>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clicou1()">1</button></td>
+                        <td><button onclick="clicou2()">2</button></td>
+                        <td><button onclick="clicou3()">3</button></td>
+                        <th><button class="dados" onclick="clicouMenos()">-</button></th>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clicou4()">4</button></td>
+                        <td><button onclick="clicou5()">5</button></td>
+                        <td><button onclick="clicou6()">6</button></td>
+                        <th><button class="dados" onclick="clicouMais()">+</button></th>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clicou7()">7</button></td>
+                        <td><button onclick="clicou8()">8</button></td>
+                        <td><button onclick="clicou9()">9</button></td>
+                        <th rowspan="2"><button id="mostrar" onclick="clicouMostrar()">=</button></th>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clicou0()">0</button></td>
+                        <th><button class="dados" onclick="clicouApagar()">&lt;</button></th>
+                        <td><button onclick="clicouVirgula()">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
