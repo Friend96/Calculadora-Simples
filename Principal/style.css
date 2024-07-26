@@ -3,16 +3,26 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../Imagens/fundo\ -\ pexels.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header > h1{
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 #calculadora{
     width: 280px;
+    margin: auto;
     border-radius: 10px;
     padding-bottom: 5px;
     backdrop-filter: blur(50px);
-    background: #000000bb;
+    background: #0000008c;
 }
 
 button{
@@ -35,6 +45,10 @@ button{
     width: 90%;
     height: 50px;
     border-radius: 5px;
+    border-top: 2px solid #444444;
+    border-left: 2px solid #444444;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
     position: absolute;
     padding: 10px;
     top: 50%;
